@@ -19,6 +19,7 @@
     <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- plugins -->
     <link rel="stylesheet" href="css/plugins.css">
@@ -81,31 +82,13 @@
                                     <!-- start menu area -->
                                     <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
                                         <li>
-                                            <a href="#!">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Home 01</a></li>
-                                                <li><a href="index-02.html">Home 02</a></li>
-                                                <li><a href="index-03.html">Home 03</a></li>
-                                                <li><a href="index-04.html">Home 04</a></li>
-                                                <li><a href="index-05.html">Home 05</a></li>
-                                                <li><a href="index-06.html">Home 06</a></li>
-                                            </ul>
+                                            <a href="index.html">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#!">Pages</a>
-                                            <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Our Services</a></li>
-                                                <li><a href="pricing.html">Pricing Plans</a></li>
-                                                <li><a href="team.html">Our Team</a></li>
-                                                <li><a href="clients.html">Our Clients</a></li>
-                                                <li><a href="faq.html">FAQ's</a></li>
-                                                <li><a href="testimonials.html">Testimonials</a></li>
-                                                <li><a href="404-page.html">404 Page</a></li>
-                                            </ul>
+                                            <a href="about.html">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="#!">Services</a>
+                                            <a href="services.html">Services</a>
                                             <ul>
                                                 <li><a href="web-development.html">Web Development</a></li>
                                                 <li><a href="apps-development.html">Apps Development</a></li>
@@ -116,19 +99,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#!">Portfolio</a>
-                                            <ul>
-                                                <li><a href="portfolio.html">Portfolio Grid</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
+                                            <a href="blog-list.html">Blogs</a>
                                         </li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -138,7 +109,8 @@
                                     <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                         <ul>
                                             <li class="d-none d-xl-inline-block"><a href="contact.html"
-                                                    class="btn-style1 white"><span>Free Quote</span></a></li>
+                                                    class="btn-style1 white"><span>Free Audit</span></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- end attribute navigation -->
@@ -178,49 +150,55 @@
         </section>
 
         <!-- SERVICES
-        ================================================== -->
-        <section>
+                ================================================== -->
+        <section class="pt-5">
             <div class="container">
-                <div class="row mt-n1-9">
-                    <div class="col-md-6 col-xl-3 mt-1-9">
-                        <div class="card card-style02 position-relative z-index-9">
-                            <div class="card-body p-0">
-                                <h3><a href="service-details.html">Web Development</a></h3>
-                                <img src="img/icon/icon-01.png" alt="..." class="mb-1-9">
-                                <p>Providing the solutions for your all business.</p>
-                                <a href="service-details.html"><i class="ti-arrow-right"></i></a>
-                            </div>
+                <h2 class="display-5 font-weight-500 mb-1-9 mb-sm-2-9 w-md-65 w-lg-50 w-xxl-40 lh-1">Discover the range
+                    of services <span class="font-weight-800">we offer</span></h2>
+                <div class="service-carousel owl-carousel owl-theme vw-lg-100">
+                    <div class="card card-style08 rounded-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="card-content px-1-6 px-md-2-9 px-xxl-7 z-index-9 position-relative">
+                            <img src="img/icon/icon-18.png" alt="..." class="mb-4 w-70px">
+                            <h3 class="mb-4"><a href="web-development.html">Performance Marketing</a></h3>
+                            <p class="mb-1-6">Data-driven campaigns across Google, Meta, and YouTube designed to
+                                generate consistent, high-quality leads while
+                                optimizing cost per acquisition.</p>
+                            <a href="web-development.html"><i class="bi bi-arrow-right"></i></a>
                         </div>
+                        <div class="card-body bg-img p-0" data-background="img/content/service-05.jpg"></div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-1-9">
-                        <div class="card card-style02 position-relative z-index-9">
-                            <div class="card-body p-0">
-                                <h3><a href="service-details.html">Apps Development</a></h3>
-                                <img src="img/icon/icon-02.png" alt="..." class="mb-1-9">
-                                <p>Providing the solutions for your all business.</p>
-                                <a href="service-details.html"><i class="ti-arrow-right"></i></a>
-                            </div>
+                    <div class="card card-style08 rounded-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="card-content px-1-6 px-md-2-9 px-xxl-7 z-index-9 position-relative">
+                            <img src="img/icon/icon-15.png" alt="..." class="mb-4 w-70px">
+                            <h3 class="mb-4"><a href="apps-development.html">Search Engine Optimization (SEO)</a></h3>
+                            <p class="mb-1-6">Strategic SEO focused on improving visibility, ranking for high-intent
+                                keywords, and driving sustainable organic traffic
+                                that converts.</p>
+                            <a href="apps-development.html"><i class="bi bi-arrow-right"></i></a>
                         </div>
+                        <div class="card-body bg-img p-0" data-background="img/content/service-06.jpg"></div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-1-9">
-                        <div class="card card-style02 position-relative z-index-9">
-                            <div class="card-body p-0">
-                                <h3><a href="service-details.html">Graphics Design</a></h3>
-                                <img src="img/icon/icon-03.png" alt="..." class="mb-1-9">
-                                <p>Providing the solutions for your all business.</p>
-                                <a href="service-details.html"><i class="ti-arrow-right"></i></a>
-                            </div>
+                    <div class="card card-style08 rounded-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="card-content px-1-6 px-md-2-9 px-xxl-7 z-index-9 position-relative">
+                            <img src="img/icon/icon-16.png" alt="..." class="mb-4 w-70px">
+                            <h3 class="mb-4"><a href="graphics-design.html">Website Development</a></h3>
+                            <p class="mb-1-6">Fast, responsive, and conversion-focused websites built to turn visitors
+                                into leads while supporting your overall
+                                marketing strategy.</p>
+                            <a href="graphics-design.html"><i class="bi bi-arrow-right"></i></a>
                         </div>
+                        <div class="card-body bg-img p-0" data-background="img/content/service-07.jpg"></div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-1-9">
-                        <div class="card card-style02 position-relative z-index-9">
-                            <div class="card-body p-0">
-                                <h3><a href="service-details.html">Digital Marketing</a></h3>
-                                <img src="img/icon/icon-04.png" alt="..." class="mb-1-9">
-                                <p>Providing the solutions for your all business.</p>
-                                <a href="service-details.html"><i class="ti-arrow-right"></i></a>
-                            </div>
+                    <div class="card card-style08 rounded-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="card-content px-1-6 px-md-2-9 px-xxl-7 z-index-9 position-relative">
+                            <img src="img/icon/icon-17.png" alt="..." class="mb-4 w-70px">
+                            <h3 class="mb-4"><a href="digital-marketing.html">Social Media Marketing</a></h3>
+                            <p class="mb-1-6">Content and distribution strategies that build brand presence, increase
+                                engagement, and support your paid and organic
+                                growth efforts.</p>
+                            <a href="digital-marketing.html"><i class="bi bi-arrow-right"></i></a>
                         </div>
+                        <div class="card-body bg-img p-0" data-background="img/content/service-08.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -253,7 +231,7 @@
                                 <div class="position-relative text-end w-100">
                                     <h6 class="border-bottom border-primary-color pb-1 d-inline-block"><a
                                             href="about.html" class="text-primary">About Us<i
-                                                class="ti-arrow-right display-31 ps-2 align-middle"></i></a></h6>
+                                                class="bi bi-arrow-right display-31 ps-2 align-middle"></i></a></h6>
                                 </div>
                                 <h2 class="title-font mb-1-9 display-3 font-weight-700 lh-1">How Does We Works</h2>
                             </div>
@@ -299,7 +277,7 @@
 
         <!-- PRICING
         ================================================== -->
-        <section class="pricing-style01">
+        <!-- <section class="pricing-style01">
             <div class="container">
                 <div class="row mt-n2-6">
                     <div class="col-md-6 col-lg-4 mt-2-6">
@@ -355,7 +333,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- FOOTER
         ================================================== -->
