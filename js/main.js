@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Topweb - Web Design Agency HTML Template
-    Description: Web Design Agency HTML Template
+    Theme Name: Topweb - Ad agency HTML Template
+    Description: Ad agency HTML Template
     Author: Website Design Templates
     Version: 1.0
 
