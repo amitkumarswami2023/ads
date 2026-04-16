@@ -49,10 +49,10 @@
       a = $(".navbar-brand.logodefault img");
     (o <= 50
       ? ($("header").removeClass("scrollHeader").addClass("fixedHeader"),
-        r.attr("src", "img/logos/logo-inner.png"))
+        r.attr("src", "img/logos/ads2.png"))
       : ($("header").removeClass("fixedHeader").addClass("scrollHeader"),
-        r.attr("src", "img/logos/logo.png")),
-      a.attr("src", "img/logos/logo.png"));
+        r.attr("src", "img/logos/ads1.png")),
+      a.attr("src", "img/logos/ads1.png"));
   });
 
   let elements = document.querySelectorAll(".navbar-nav > li > a");
