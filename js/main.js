@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Topweb - Ad agency HTML Template
+    Theme Name: That'sMYAdCompany - Ad Agency for Your Business
     Description: Ad agency HTML Template
     Author: Website Design Templates
     Version: 1.0
