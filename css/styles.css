@@ -251,9 +251,7 @@ a:active {
 }
 .list-style3 li a:before {
   position: absolute;
-  content: "\e628";
   font-weight: 500;
-  font-family: "themify";
   transition: width 0.3s linear;
   font-size: 18px;
   top: 12px;

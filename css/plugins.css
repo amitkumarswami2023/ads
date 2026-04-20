@@ -21955,10 +21955,10 @@ fieldset:disabled .btn {
 .ti-angle-down:before {
   content: "\e64b";
 }
-.ti-check:before {
+.bi bi-check-lg:before {
   content: "\e64c";
 }
-.ti-check-box:before {
+.bi bi-check-lg-box:before {
   content: "\e64d";
 }
 .ti-camera:before {
